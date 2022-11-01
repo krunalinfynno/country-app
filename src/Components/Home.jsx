@@ -37,8 +37,8 @@ const Home = ({ darkMode }) => {
   useEffect(() => {
     setSearchData(
       countryData.filter((country) => {
-        const name = country?.name?.official;
-        return name?.includes(searchText);
+        const name = country?.name?.official.toLowerCase();
+        return name?.includes(searchText.toLowerCase());
       })
     );
     // eslint-disable-next-line react-hooks/exhaustive-deps

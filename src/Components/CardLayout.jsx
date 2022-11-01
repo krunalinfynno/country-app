@@ -36,7 +36,7 @@ export default function CardLayout({ data, darkMode }) {
                     </div>
                     <div>
                       <span>Popolation : </span>
-                      <span className="text-[#e6e6e6]">
+                      <span>
                         {item?.population
                           .toString()
                           .replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
@@ -44,11 +44,11 @@ export default function CardLayout({ data, darkMode }) {
                     </div>
                     <div>
                       <span>Region : </span>
-                      <span className="text-[#e6e6e6]">{item?.region}</span>
+                      <span>{item?.region}</span>
                     </div>
                     <div>
                       <span>Capital : </span>
-                      <span className="text-[#e6e6e6]">{item?.capital}</span>
+                      <span>{item?.capital}</span>
                     </div>
                   </div>
                 </CardContent>
