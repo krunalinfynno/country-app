@@ -9,7 +9,7 @@ In the project directory, you can run:
 
 Install all the dependencies using yarn or npm before running the application
 
-### `npm start` ? `yarn start`
+### `npm start` / `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
